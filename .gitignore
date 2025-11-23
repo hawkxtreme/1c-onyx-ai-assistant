@@ -1,0 +1,75 @@
+# Cursor IDE
+.cursor/
+
+# Backup files
+backup/
+
+# Demo database files
+demo/
+
+# Documentation (internal) - contains sensitive information
+docs/
+
+# Files with sensitive information
+**/Настройка LLM.txt
+**/*API*Key*.txt
+**/*secret*.txt
+**/*password*.txt
+
+# 1C Platform files
+*.1CD
+*.1CD.cfl
+*.1CL
+*.1CL.cfl
+*.cgr
+*.cgr.cfl
+*.cfe
+*.lgf
+*.lgp
+*.lgx
+*.lck.cfl
+
+# 1C Configuration files
+*.cf
+*.cfu
+*.epf
+*.erf
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Personal notes and temporary files
+*.txt
+!README.txt
+
+# Binary files
+*.bin
+*.dat
+*.ind
+
+# Lock files
+*.lock
+
+.bsl-language-server.json
+.editorconfig

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.onyx_Агенты" id="dd1e5090-794c-47e9-8e46-62fe22d0502b" configVersion="679ffc25bf772d6905abc8d67f40f52dbd809bb7">
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Метки" id="07c57fef-7484-4a31-9525-8c1322c6c146"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.Публичный" id="0ac2e6e8-3da2-4832-b043-98ce46d31484"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Инструменты.Attribute.Описание" id="1245c294-5dfd-44d8-8e2c-844131e4fed7"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Инструменты.Attribute.Код" id="2feb106f-87cc-461c-bc36-0cd08b1ff83b"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.Идентификатор" id="3bf3194e-b74c-4e7f-9e60-fa550817e91a"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.Встроенный" id="505d75a4-81aa-47aa-b7bc-b7086cb47dbd"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.ДатаСинхронизации" id="5211b8d2-88e1-4767-8266-190f9a5a06d6"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.Видимый" id="5c8cbf5a-c252-442a-a3f1-298611f02091"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.МодельLLM" id="5fffed25-d8d3-4efc-8692-eefe4ceefee4"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Инструменты.Attribute.Наименование" id="874eb859-1cc8-426a-a825-0d2b08a0b616"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.АгентПоУмолчанию" id="9483a973-ed6e-458e-b3de-7200f5eff954"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.Описание" id="97b3dc6d-9147-4b4c-ba5a-66c4a4cf583e"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.ДатаСоздания" id="a5f36978-00e6-4a82-9ad1-0a961a3fa060"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.ИмяВладельца" id="b2b972aa-c7aa-4b26-a8ae-d31b7817e7b2"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Инструменты.Attribute.Идентификатор" id="d42fb36a-dfce-4fa2-9e0a-1f7560d3442b"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Инструменты" id="e344a0c9-0ce4-43ff-8c6c-d65b3df28120"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Метки.Attribute.Идентификатор" id="f2fcb47e-e208-4bbb-afef-c54f01bcd1e3"/>
+			<Metadata name="Catalog.onyx_Агенты.Attribute.ПровайдерLLM" id="f669de25-5a0d-41fd-ba4e-cfcf5b8df1d1"/>
+			<Metadata name="Catalog.onyx_Агенты.TabularSection.Метки.Attribute.Наименование" id="f8b1fdd7-cd4a-453f-a30c-f728c67d4034"/>
+		</Metadata>
+		<Metadata name="Catalog.onyx_Агенты.ManagerModule" id="dd1e5090-794c-47e9-8e46-62fe22d0502b.3" configVersion="f374c234485cc5ee2f565016afb7c5b44463ec65"/>
+		<Metadata name="Catalog.onyx_Агенты.ObjectModule" id="dd1e5090-794c-47e9-8e46-62fe22d0502b.0" configVersion="30f70f1672553ed6ae0f298c81c0dbc5f9a930ca"/>
+		<Metadata name="Catalog.onyx_СессииЧата" id="00c50429-3404-4809-bd50-5715d43909c0" configVersion="8ba23b0fc37968bff89d14e01b58ac341368b8a8">
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.СтатусДоступа" id="15573ea3-aac8-4fe8-a5d9-8955e3bc015b"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.ПоследнееСообщениеID" id="261c2c00-0c5f-48ef-ade6-eb42eecb9915"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.ДатаПоследнегоСообщения" id="2ae3c7a0-7bf6-4f27-8b0d-15d32dfb58f3"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Command.Обновить" id="3ee945e3-98b9-4216-a7a7-7edf039e747b"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.Идентификатор" id="633869e7-85ce-48c2-beda-4bc45a5ff2d6"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.ДатаСинхронизации" id="746df950-176c-443f-8921-ad1904aaeb7e"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.Пользователь" id="b0ca12b9-aeed-4751-972f-8017d6fc7f9b"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.ДатаСоздания" id="b8fc3142-83e8-4295-957a-68f54c61c5e7"/>
+			<Metadata name="Catalog.onyx_СессииЧата.Attribute.Активна" id="c775dd6b-9bdc-459c-8329-11b7a8b55f5b"/>
+		</Metadata>
+		<Metadata name="Catalog.onyx_СессииЧата.Command.Обновить.CommandModule" id="3ee945e3-98b9-4216-a7a7-7edf039e747b.2" configVersion="c2a459ee3a92beb0af33adeb27a9d0a72cb4bba7"/>
+		<Metadata name="Catalog.onyx_СессииЧата.Form.ФормаСписка" id="20f363cb-35a1-4406-8c09-2b46083d6bb9" configVersion="c6d884c85b4f894c7d2bbe1c29abdbd8522d9ecc"/>
+		<Metadata name="Catalog.onyx_СессииЧата.Form.ФормаСписка.Form" id="20f363cb-35a1-4406-8c09-2b46083d6bb9.0" configVersion="14bf971f91e8b17bb2a75592125c97b9534d5d83"/>
+		<Metadata name="Catalog.onyx_СессииЧата.ManagerModule" id="00c50429-3404-4809-bd50-5715d43909c0.3" configVersion="87963596fcbb9a2cd3e044c255bed0bf0b62e72a"/>
+		<Metadata name="Catalog.onyx_СессииЧата.ObjectModule" id="00c50429-3404-4809-bd50-5715d43909c0.0" configVersion="30f70f1672553ed6ae0f298c81c0dbc5f9a930ca"/>
+		<Metadata name="CommonModule.onyx_ВалидацияДанных" id="679cef63-01d5-4292-a5b5-28922f639777" configVersion="ff6a4a10b960db4d47ba6bf12063ded7cca9b109"/>
+		<Metadata name="CommonModule.onyx_ВалидацияДанных.Module" id="679cef63-01d5-4292-a5b5-28922f639777.0" configVersion="245782af254506bcdfdb67620a9ce095e9f6b7b3"/>
+		<Metadata name="CommonModule.onyx_КоннекторHTTP" id="a50e5c41-7376-4b1d-bea9-0e6ace4561e2" configVersion="72e8a4e90de2dfdae7454023ad5e07813a7a714c"/>
+		<Metadata name="CommonModule.onyx_КоннекторHTTP.Module" id="a50e5c41-7376-4b1d-bea9-0e6ace4561e2.0" configVersion="79181f39fbc7907406f747996e779c7493bb02f1"/>
+		<Metadata name="CommonModule.onyx_ОбработкаОшибок" id="f6074a7d-8f6e-4971-8667-3b5a479c8530" configVersion="96edfedc0caae21b4c4ee4986f1807a930010fa7"/>
+		<Metadata name="CommonModule.onyx_ОбработкаОшибок.Module" id="f6074a7d-8f6e-4971-8667-3b5a479c8530.0" configVersion="c52407af529c1ea30c5b61dca64d67671548b159"/>
+		<Metadata name="CommonModule.onyx_ПодключениеКAPI" id="2d094a36-b981-42b6-a2a2-7689dbe5f2cc" configVersion="bb92fd5ffb11777b3b9643a8f140b7b2e38b0c23"/>
+		<Metadata name="CommonModule.onyx_ПодключениеКAPI.Module" id="2d094a36-b981-42b6-a2a2-7689dbe5f2cc.0" configVersion="117cdc8a3a2f3f9e532c1d7dd4932c291d490b6f"/>
+		<Metadata name="CommonModule.onyx_РаботаСАгентами" id="06cec10c-a66c-44de-bc07-7dedaea4c414" configVersion="23817b7afd6d6079551e5806e7b3350e87ccf6b2"/>
+		<Metadata name="CommonModule.onyx_РаботаСАгентами.Module" id="06cec10c-a66c-44de-bc07-7dedaea4c414.0" configVersion="042f770676565b38f53ad9dafbbb3854b9bf7118"/>
+		<Metadata name="CommonModule.onyx_РаботаССессиямиЧата" id="bdd74fa8-62b5-4c7a-a304-493e4a87bb79" configVersion="39b1dd572d54b97ccae5b91bd4f0d3f57c662693"/>
+		<Metadata name="CommonModule.onyx_РаботаССессиямиЧата.Module" id="bdd74fa8-62b5-4c7a-a304-493e4a87bb79.0" configVersion="d71e61264eb62ccadd799bd887e989b31e8461ab"/>
+		<Metadata name="CommonModule.onyx_РегламентныеЗадания" id="ca0c74fb-3d60-4ea5-937e-d4a0d8080432" configVersion="4aeb886799ffcccc49a531b5530a3cb1e6dfd971"/>
+		<Metadata name="CommonModule.onyx_РегламентныеЗадания.Module" id="ca0c74fb-3d60-4ea5-937e-d4a0d8080432.0" configVersion="479f10fc862d15a6dde0d0f46395f8262f4931d3"/>
+		<Metadata name="CommonPicture.onyx_ИконкаПодсистемы" id="95c1b5a4-9d40-4451-b813-eef9c24b5cc6" configVersion="38878420881773f6b50ca66e6b7a9b91069d9416"/>
+		<Metadata name="CommonPicture.onyx_ИконкаПодсистемы.Picture" id="95c1b5a4-9d40-4451-b813-eef9c24b5cc6.0" configVersion="46c5bf9c6cc756d2d81eb2209f36f2e01e6bf6db"/>
+		<Metadata name="Configuration.Onyx" id="3e8cab3b-7ac3-4a5e-acfb-2cede65cf539" configVersion="ee04d91e9c9e2ffa1bb11a200458e47d803ed31b"/>
+		<Metadata name="Configuration.Onyx.CommandInterface" id="3e59373d-1031-400f-9da9-069334fa1324.a" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Configuration.Onyx.HomePageWorkArea" id="3e59373d-1031-400f-9da9-069334fa1324.8" configVersion="bcd9d679f866dc94661f9669705336fcf1495033"/>
+		<Metadata name="Configuration.Onyx.MainSectionCommandInterface" id="3e59373d-1031-400f-9da9-069334fa1324.9" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Constant.onyx_ТекущийКонтурAPI" id="0e68b13c-c0d7-4430-9174-c3ad03ff0e88" configVersion="edef3e191e7d07cd1e40d7f9195d384a4f4b3463"/>
+		<Metadata name="DataProcessor.onyx_Администрирование" id="a68baef5-9e80-4718-88a2-91ae4b324f54" configVersion="6a87333116f5c1fa931d0ee515fab0d215bd9d90"/>
+		<Metadata name="DataProcessor.onyx_Администрирование.Form.Форма" id="7b3fb9b7-f82c-4b65-a519-2e50fa233dad" configVersion="7626f7d37882bc61c7e64f097622729f6f731e49"/>
+		<Metadata name="DataProcessor.onyx_Администрирование.Form.Форма.Form" id="7b3fb9b7-f82c-4b65-a519-2e50fa233dad.0" configVersion="d2fd69508b0a79a5043298b924970cf3a3303a50"/>
+		<Metadata name="DataProcessor.onyx_ПомощникПервогоЗапуска" id="7afde03a-2852-4691-bc30-df323643ce7f" configVersion="bc32c83c7a3526855da185cfec2db1ab78aafd87"/>
+		<Metadata name="DataProcessor.onyx_ПомощникПервогоЗапуска.Form.Форма" id="4b7c4d7f-68e4-46a3-9fb2-b16370c3138f" configVersion="8f1a1e9b66ee9748830db403ecf75c0b057dd98e"/>
+		<Metadata name="DataProcessor.onyx_ПомощникПервогоЗапуска.Form.Форма.Form" id="4b7c4d7f-68e4-46a3-9fb2-b16370c3138f.0" configVersion="e6b090871a858ed6609d86f5291b90c44462b37a"/>
+		<Metadata name="DataProcessor.onyx_Чаты" id="09959206-098b-4809-8aec-9813229c714b" configVersion="8a22cdc2fb8ecb768231b76240117a70eedffb96"/>
+		<Metadata name="DataProcessor.onyx_Чаты.Form.Форма" id="60552c7c-36a8-4d8c-a9ac-d153b89ce915" configVersion="de9ce0107880c3a25b6bbe7809a175cb7888a4fc"/>
+		<Metadata name="DataProcessor.onyx_Чаты.Form.Форма.Form" id="60552c7c-36a8-4d8c-a9ac-d153b89ce915.0" configVersion="a7b493363879f6959fb9f319ca1a6338c06b095b"/>
+		<Metadata name="DataProcessor.onyx_Чаты.ManagerModule" id="09959206-098b-4809-8aec-9813229c714b.2" configVersion="c9987ecacbcf66d9220713698af708a12cb01612"/>
+		<Metadata name="DataProcessor.onyx_Чаты.ObjectModule" id="09959206-098b-4809-8aec-9813229c714b.0" configVersion="bf716063468b3c26ce483b4661f1e997eb357c0d"/>
+		<Metadata name="Enum.onyx_КонтурAPI" id="3db6096f-6c36-4463-9575-cddeb303d424" configVersion="a80e92425347d9b38b7000ecb7233d1194b537be">
+			<Metadata name="Enum.onyx_КонтурAPI.EnumValue.ТестовыйКонтур" id="519e18ee-fca6-4877-aacd-b13234842030"/>
+			<Metadata name="Enum.onyx_КонтурAPI.EnumValue.РабочийКонтур" id="d21432ff-e168-4980-ab85-bad38851b132"/>
+		</Metadata>
+		<Metadata name="Enum.onyx_СтатусДоступаСессии" id="1d289545-9af0-4043-ae02-3f39c7840d48" configVersion="b31a06dcaee6809a08f29dd7a1e21bae985419eb">
+			<Metadata name="Enum.onyx_СтатусДоступаСессии.EnumValue.Приватный" id="70719a62-0080-4fa8-9a22-dec7106e0fb9"/>
+			<Metadata name="Enum.onyx_СтатусДоступаСессии.EnumValue.Публичный" id="9ec293b5-d4f5-4bc6-b8a3-9ded492b3c52"/>
+		</Metadata>
+		<Metadata name="Enum.onyx_СтатусЗапроса" id="0925b65b-7db8-4ebd-bec6-b66a1818b2a4" configVersion="8547f0b4d86e811a9f65a03b5be8dff0a33644cb">
+			<Metadata name="Enum.onyx_СтатусЗапроса.EnumValue.ВОбработке" id="05afba87-bcd7-4a1b-ac3e-01c3cf48d3af"/>
+			<Metadata name="Enum.onyx_СтатусЗапроса.EnumValue.Ожидание" id="0c00f2b2-5d4b-42f6-af41-701776bad71a"/>
+			<Metadata name="Enum.onyx_СтатусЗапроса.EnumValue.Ошибка" id="0f2cfd61-4aaf-484e-a8b2-6d1e28b0e9d4"/>
+			<Metadata name="Enum.onyx_СтатусЗапроса.EnumValue.Выполнен" id="4e57aebf-18f5-483e-bcd2-dd328e10f702"/>
+		</Metadata>
+		<Metadata name="Enum.onyx_ТипЗапроса" id="3ec734c4-0741-4999-91a5-2ba33a826257" configVersion="0cc3129284a4f6374b998bd48d5ba6e4bf838bb2">
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.Другое" id="0ca0b37f-a565-43b9-a439-49a32fdbe565"/>
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.ПолучениеСессии" id="395dc5ef-6938-4737-8f84-d96c0432c12b"/>
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.ОтправкаСообщения" id="3c8a9d00-f970-42e6-917c-e16bcd49d736"/>
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.ПолучениеАгента" id="47683068-3bf5-4f55-bac7-e875fd083c48"/>
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.ПолучениеСпискаАгентов" id="65654db6-3135-4b5c-b89a-080ee12a691e"/>
+			<Metadata name="Enum.onyx_ТипЗапроса.EnumValue.СозданиеСессии" id="a8de7a64-2411-4490-9881-7ffe5a61f1ab"/>
+		</Metadata>
+		<Metadata name="Enum.onyx_ТипОперации" id="1fe47a72-26b3-4933-9df9-49684b2ea271" configVersion="6b8c2e2d1756bc04f9d5f452f36b37edd55fbba5">
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.ПолучениеСессии" id="16f5a50d-f218-4c84-a94d-7ef3e2f6cf6f"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.ПолучениеСпискаАгентов" id="38d88252-20cf-4a9d-ab4a-752567b7fa32"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.Ошибка" id="4e1fd4c6-e4ee-4649-8656-434a31467cee"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.ОтправкаСообщения" id="52e8617c-fbf5-4812-aea0-bde988f5d506"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.СозданиеСессии" id="8c47ed46-cf49-4811-8b69-ebc1d11d57e4"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.ПолучениеТокена" id="8d973f06-dbea-4be6-8969-db42b6a449a3"/>
+			<Metadata name="Enum.onyx_ТипОперации.EnumValue.ПолучениеАгента" id="fd588784-d392-4da3-bbb2-a933ef2c826d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI" id="39ceb9d5-3c90-488b-a8b1-3f4c43950d4c" configVersion="e8e9f7c00f6df41fd78a195f231b580fb034520d">
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Resource.URL" id="0737d2f7-e388-461b-b680-de04b6608ec4"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Resource.Ошибка" id="2eaeb6e1-ab97-42ba-bd71-46798962877a"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Resource.ТипЗапроса" id="65a63421-6ec1-4d60-aebf-624f2b1a65a8"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Resource.Результат" id="b6fc9134-6554-4426-aac5-4ffa1a727ea3"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Resource.КодСостояния" id="bf5f1b1d-a3a1-4a71-900e-efe98d226660"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Dimension.Пользователь" id="c293da00-0c77-499f-8ac0-6ac342c34b21"/>
+			<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Dimension.ТипОперации" id="d5cdb46b-bcea-40c0-937e-87c345d6161c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Form.ФормаЗаписи" id="85387bcb-dbe6-4f71-8d40-65025360d81e" configVersion="4d3f2dcad6497ff3d0b75e475e39f91c63a8daf9"/>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Form.ФормаЗаписи.Form" id="85387bcb-dbe6-4f71-8d40-65025360d81e.0" configVersion="9b7a54da76b62733c0e838db3e01f25099601158"/>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Form.ФормаСписка" id="bc9f1e86-06e6-439f-b45e-1010d44beea6" configVersion="d7dee6f12aafc51fd8c6cf3d2bee1fa4ba0fadad"/>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.Form.ФормаСписка.Form" id="bc9f1e86-06e6-439f-b45e-1010d44beea6.0" configVersion="290e4f0555ecb82103f5f2eff12359c7963c3f99"/>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.ManagerModule" id="39ceb9d5-3c90-488b-a8b1-3f4c43950d4c.2" configVersion="3f466eece1196118c208e3e4cc8b9a0dcb6888e9"/>
+		<Metadata name="InformationRegister.onyx_ЖурналРаботыСAPI.RecordSetModule" id="39ceb9d5-3c90-488b-a8b1-3f4c43950d4c.1" configVersion="30f70f1672553ed6ae0f298c81c0dbc5f9a930ca"/>
+		<Metadata name="InformationRegister.onyx_НастройкиAPI" id="bcbe7cc5-dad9-469b-bb6f-ac83f42eaf6a" configVersion="94ce832c1983ce2fd20c4ecaa1a1b16ece173b1e">
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.ТаймаутЧтения" id="06fe472a-ea93-4083-a0bb-0193fdbd7dfe"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.ДатаПоследнегоОбновления" id="089577e3-6772-450c-8d34-f3d6dd91b0af"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.МаксимальноеКоличествоПовторов" id="0bc166ff-048d-4e7c-afda-bdc730188b72"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.МаксимальноеВремяПовторов" id="0ce9fb1f-b1f4-40c3-81dd-7940fcd31c17"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.БазовыйURL" id="5ccd43cf-5219-437f-a547-6533f406ed62"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.APIКлюч" id="7d8a6e25-5e02-4940-b75d-51e3cbacca3e"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Dimension.Контур" id="88d60cbf-18cf-4ab7-b412-4551f02433a9"/>
+			<Metadata name="InformationRegister.onyx_НастройкиAPI.Resource.ТаймаутСоединения" id="95a8c50b-d1c6-4d84-995c-658da7ddd0f5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.onyx_НастройкиAPI.ManagerModule" id="bcbe7cc5-dad9-469b-bb6f-ac83f42eaf6a.2" configVersion="3af66dfcb131e532d940ded4e7ff9ee4ff1727b7"/>
+		<Metadata name="InformationRegister.onyx_НастройкиAPI.RecordSetModule" id="bcbe7cc5-dad9-469b-bb6f-ac83f42eaf6a.1" configVersion="30f70f1672553ed6ae0f298c81c0dbc5f9a930ca"/>
+		<Metadata name="Language.Русский" id="9a502972-336f-41c7-ae4b-10a455258ad8" configVersion="329baa9bd8e69a8b970d998d74a94dd651e83537"/>
+		<Metadata name="Role.onyx_Администратор" id="ec9c19b4-bbab-4237-9aec-99f22a784821" configVersion="e0d3bdc92c7e9e033848d7df788b2e48b313233d"/>
+		<Metadata name="Role.onyx_Администратор.Rights" id="ec9c19b4-bbab-4237-9aec-99f22a784821.0" configVersion="b0cca3da23926bbb1980c48ced2e6799d82224a3"/>
+		<Metadata name="Role.onyx_Пользователь" id="52f5f17d-ffc5-467a-9a5c-8bdf2806b17f" configVersion="6539d628393d9a46dea83a72a6b5cf415b50492e"/>
+		<Metadata name="Role.onyx_Пользователь.Rights" id="52f5f17d-ffc5-467a-9a5c-8bdf2806b17f.0" configVersion="c5b1f5227b2212e7b7e7e888383a0fbb2185257d"/>
+		<Metadata name="ScheduledJob.onyx_СинхронизацияАгентов" id="e041ae6a-bc7e-4962-b2b9-3e5e9b2d642f" configVersion="57d9402e3092db32e679fde5a4b1728db7fe24c5"/>
+		<Metadata name="ScheduledJob.onyx_СинхронизацияАгентов.Schedule" id="e041ae6a-bc7e-4962-b2b9-3e5e9b2d642f.0" configVersion="c94ad54df2b2ff1e62b515b010bceb8bc2466094"/>
+		<Metadata name="Subsystem.onyx_Основная" id="858564a1-bcec-426b-a3d1-3f172104bf65" configVersion="cae07732bdf82feb10462fc97a4deda5524e5150"/>
+		<Metadata name="Subsystem.onyx_Основная.Subsystem.НСИ" id="f1f41fca-b532-449e-a12d-efc0b2c9c958" configVersion="1bb269f145ee6f10b56f859f8e3f0848af581b37"/>
+		<Metadata name="Subsystem.onyx_Основная.Subsystem.Настройки" id="46d6f44b-8ce8-4c23-8b5c-1eefbd9db4a0" configVersion="74745aaae40c4f10520ce003ac12d0024578e842"/>
+		<Metadata name="Subsystem.onyx_Основная.Subsystem.Прочее" id="cd46c7ed-d724-4da9-b5b9-6e3206197763" configVersion="b4d8caf76e6607e97ae924c341f90beff225bb55"/>
+		<Metadata name="Subsystem.onyx_Основная.Subsystem.Чат" id="729dddd3-77cf-4ae4-b5c2-f75a5c4b3312" configVersion="7a7355188450b0d395caab951b9b3aa1a59a44b8"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

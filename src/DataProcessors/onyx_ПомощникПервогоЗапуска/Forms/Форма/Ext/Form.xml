@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КнопкаНазад" id="23">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КнопкаНазад</CommandName>
+				<ExtendedTooltip name="КнопкаНазадРасширеннаяПодсказка" id="24"/>
+			</Button>
+			<Button name="КнопкаДалее" id="25">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КнопкаДалее</CommandName>
+				<PictureLocation>Right</PictureLocation>
+				<ExtendedTooltip name="КнопкаДалееРасширеннаяПодсказка" id="26"/>
+			</Button>
+			<Button name="КнопкаОтмена" id="27">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КнопкаОтмена</CommandName>
+				<ExtendedTooltip name="КнопкаОтменаРасширеннаяПодсказка" id="28"/>
+			</Button>
+			<Button name="КнопкаГотово" id="29">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КнопкаГотово</CommandName>
+				<ExtendedTooltip name="КнопкаГотовоРасширеннаяПодсказка" id="30"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЗаголовок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заголовок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа заголовок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗаголовокРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<LabelDecoration name="НадписьЗаголовок" id="5">
+					<ContextMenu name="НадписьЗаголовокКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="НадписьЗаголовокРасширеннаяПодсказка" id="7"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="1">
+			<EnableContentChange>true</EnableContentChange>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="Страница_НастройкаПодключения" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка подключения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница настройка подключения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_НастройкаПодключенияРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОсновныеНастройки" id="31">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа основные настройки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа основные настройки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОсновныеНастройкиРасширеннаяПодсказка" id="32"/>
+							<ChildItems>
+								<InputField name="Контур" id="33">
+									<DataPath>Контур</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КонтурКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="КонтурРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="БазовыйURL" id="36">
+									<DataPath>БазовыйURL</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="БазовыйURLКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="БазовыйURLРасширеннаяПодсказка" id="38"/>
+								</InputField>
+								<InputField name="APIКлюч" id="39">
+									<DataPath>APIКлюч</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="APIКлючКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="APIКлючРасширеннаяПодсказка" id="41"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДополнительныеПараметры" id="42">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные параметры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дополнительные параметры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаДополнительныеПараметрыРасширеннаяПодсказка" id="43"/>
+							<ChildItems>
+								<InputField name="ТаймаутСоединения" id="44">
+									<DataPath>ТаймаутСоединения</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаймаутСоединенияКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ТаймаутСоединенияРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<InputField name="ТаймаутЧтения" id="47">
+									<DataPath>ТаймаутЧтения</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаймаутЧтенияКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ТаймаутЧтенияРасширеннаяПодсказка" id="49"/>
+								</InputField>
+								<InputField name="МаксимальноеКоличествоПовторов" id="50">
+									<DataPath>МаксимальноеКоличествоПовторов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="МаксимальноеКоличествоПовторовКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="МаксимальноеКоличествоПовторовРасширеннаяПодсказка" id="52"/>
+								</InputField>
+								<InputField name="МаксимальноеВремяПовторов" id="53">
+									<DataPath>МаксимальноеВремяПовторов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="МаксимальноеВремяПовторовКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="МаксимальноеВремяПовторовРасширеннаяПодсказка" id="55"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПроверкаСоединения" id="56">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа проверка соединения</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа проверка соединения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПроверкаСоединенияРасширеннаяПодсказка" id="57"/>
+						</UsualGroup>
+						<UsualGroup name="ГруппаИнформация" id="61">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа информация</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа информация</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИнформацияРасширеннаяПодсказка" id="62"/>
+							<ChildItems>
+								<InputField name="СообщениеПроверкиСоединения" id="63">
+									<DataPath>СообщениеПроверкиСоединения</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СообщениеПроверкиСоединенияКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="СообщениеПроверкиСоединенияРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<Button name="ПроверитьСоединение" id="69">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПроверитьСоединение</CommandName>
+									<ExtendedTooltip name="ПроверитьСоединениеРасширеннаяПодсказка" id="70"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_ЗагрузкаАгентов" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка агентов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница загрузка агентов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_ЗагрузкаАгентовРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаЗагрузкаАгентов" id="71">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа загрузка агентов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа загрузка агентов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗагрузкаАгентовРасширеннаяПодсказка" id="72"/>
+							<ChildItems>
+								<Table name="Агенты" id="73">
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>Агенты</DataPath>
+									<RowPictureDataPath>Агенты.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="АгентыКонтекстноеМеню" id="74"/>
+									<AutoCommandBar name="АгентыКоманднаяПанель" id="75">
+										<ChildItems>
+											<Button name="АгентыЗагрузитьАгентов" id="125">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ЗагрузитьАгентов</CommandName>
+												<ExtendedTooltip name="АгентыЗагрузитьАгентовРасширеннаяПодсказка" id="126"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="АгентыРасширеннаяПодсказка" id="76"/>
+									<SearchStringAddition name="АгентыСтрокаПоиска" id="77">
+										<AdditionSource>
+											<Item>Агенты</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="АгентыСтрокаПоискаКонтекстноеМеню" id="78"/>
+										<ExtendedTooltip name="АгентыСтрокаПоискаРасширеннаяПодсказка" id="79"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="АгентыСостояниеПросмотра" id="80">
+										<AdditionSource>
+											<Item>Агенты</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="АгентыСостояниеПросмотраКонтекстноеМеню" id="81"/>
+										<ExtendedTooltip name="АгентыСостояниеПросмотраРасширеннаяПодсказка" id="82"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="АгентыУправлениеПоиском" id="83">
+										<AdditionSource>
+											<Item>Агенты</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="АгентыУправлениеПоискомКонтекстноеМеню" id="84"/>
+										<ExtendedTooltip name="АгентыУправлениеПоискомРасширеннаяПодсказка" id="85"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="АгентыНаименование" id="86">
+											<DataPath>Агенты.Description</DataPath>
+											<ContextMenu name="АгентыНаименованиеКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="АгентыНаименованиеРасширеннаяПодсказка" id="88"/>
+										</LabelField>
+										<LabelField name="АгентыКод" id="89">
+											<DataPath>Агенты.Code</DataPath>
+											<ContextMenu name="АгентыКодКонтекстноеМеню" id="90"/>
+											<ExtendedTooltip name="АгентыКодРасширеннаяПодсказка" id="91"/>
+										</LabelField>
+										<LabelField name="АгентыОписание" id="92">
+											<DataPath>Агенты.Описание</DataPath>
+											<ContextMenu name="АгентыОписаниеКонтекстноеМеню" id="93"/>
+											<ExtendedTooltip name="АгентыОписаниеРасширеннаяПодсказка" id="94"/>
+										</LabelField>
+										<LabelField name="АгентыИдентификатор" id="95">
+											<DataPath>Агенты.Идентификатор</DataPath>
+											<ContextMenu name="АгентыИдентификаторКонтекстноеМеню" id="96"/>
+											<ExtendedTooltip name="АгентыИдентификаторРасширеннаяПодсказка" id="97"/>
+										</LabelField>
+										<CheckBoxField name="АгентыАгентПоУмолчанию" id="98">
+											<DataPath>Агенты.АгентПоУмолчанию</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="АгентыАгентПоУмолчаниюКонтекстноеМеню" id="99"/>
+											<ExtendedTooltip name="АгентыАгентПоУмолчаниюРасширеннаяПодсказка" id="100"/>
+										</CheckBoxField>
+										<CheckBoxField name="АгентыВстроенный" id="101">
+											<DataPath>Агенты.Встроенный</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="АгентыВстроенныйКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="АгентыВстроенныйРасширеннаяПодсказка" id="103"/>
+										</CheckBoxField>
+										<CheckBoxField name="АгентыВидимый" id="104">
+											<DataPath>Агенты.Видимый</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="АгентыВидимыйКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="АгентыВидимыйРасширеннаяПодсказка" id="106"/>
+										</CheckBoxField>
+										<CheckBoxField name="АгентыПубличный" id="107">
+											<DataPath>Агенты.Публичный</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="АгентыПубличныйКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="АгентыПубличныйРасширеннаяПодсказка" id="109"/>
+										</CheckBoxField>
+										<LabelField name="АгентыИмяВладельца" id="110">
+											<DataPath>Агенты.ИмяВладельца</DataPath>
+											<ContextMenu name="АгентыИмяВладельцаКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="АгентыИмяВладельцаРасширеннаяПодсказка" id="112"/>
+										</LabelField>
+										<LabelField name="АгентыДатаСоздания" id="113">
+											<DataPath>Агенты.ДатаСоздания</DataPath>
+											<ContextMenu name="АгентыДатаСозданияКонтекстноеМеню" id="114"/>
+											<ExtendedTooltip name="АгентыДатаСозданияРасширеннаяПодсказка" id="115"/>
+										</LabelField>
+										<LabelField name="АгентыДатаСинхронизации" id="116">
+											<DataPath>Агенты.ДатаСинхронизации</DataPath>
+											<ContextMenu name="АгентыДатаСинхронизацииКонтекстноеМеню" id="117"/>
+											<ExtendedTooltip name="АгентыДатаСинхронизацииРасширеннаяПодсказка" id="118"/>
+										</LabelField>
+										<LabelField name="АгентыМодельLLM" id="119">
+											<DataPath>Агенты.МодельLLM</DataPath>
+											<ContextMenu name="АгентыМодельLLMКонтекстноеМеню" id="120"/>
+											<ExtendedTooltip name="АгентыМодельLLMРасширеннаяПодсказка" id="121"/>
+										</LabelField>
+										<LabelField name="АгентыПровайдерLLM" id="122">
+											<DataPath>Агенты.ПровайдерLLM</DataPath>
+											<ContextMenu name="АгентыПровайдерLLMКонтекстноеМеню" id="123"/>
+											<ExtendedTooltip name="АгентыПровайдерLLMРасширеннаяПодсказка" id="124"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.onyx_ПомощникПервогоЗапуска</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекущаяСтраница" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая страница</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПроверкаСоединенияВыполнена" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверка соединения выполнена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АгентыЗагружены" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Агенты загружены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Контур" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контур</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.onyx_КонтурAPI</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="APIКлюч" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>API ключ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БазовыйURL" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>URL</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаймаутСоединения" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут соединения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаймаутЧтения" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут чтения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МаксимальноеКоличествоПовторов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Максимальное количество повторов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МаксимальноеВремяПовторов" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Максимальное время повторов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СообщениеПроверкиСоединения" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщение проверки соединения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодОшибкиПроверки" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код ошибки проверки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОткрытьЧатПослеЗавершения" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть чат после завершения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Агенты" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Агенты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.onyx_Агенты</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КнопкаНазад" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveLeft</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КнопкаНазад</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="КнопкаДалее" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveRight</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КнопкаДалее</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="КнопкаОтмена" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КнопкаОтмена</Action>
+		</Command>
+		<Command name="КнопкаГотово" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Готово</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка готово</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КнопкаГотово</Action>
+		</Command>
+		<Command name="ПроверитьСоединение" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьСоединение</Action>
+		</Command>
+		<Command name="ЗагрузитьАгентов" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить агентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьАгентов</Action>
+		</Command>
+	</Commands>
+</Form>
