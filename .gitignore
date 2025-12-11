@@ -8,7 +8,9 @@ backup/
 demo/
 
 # Documentation (internal) - contains sensitive information
-docs/
+docs/deploy
+docs/onyx
+docs/1c
 
 # Files with sensitive information
 **/Настройка LLM.txt
